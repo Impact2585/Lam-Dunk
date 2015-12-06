@@ -54,6 +54,20 @@
 void operatorControl() {
 
 	while (1) {
+		int shooterInput = joystickGetAnalog(1,3);
+		int liftInput = joystickGetAnalogy(1,2);
+
+		for(int i = 1;i < 5; i++)
+		{
+			motorset(i, shooterInput);
+		}
+
+		motorset(5, liftInput);
+
 		delay(20);
+
+		}
+
+
 	}
-}
+
