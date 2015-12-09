@@ -1,4 +1,5 @@
 #include "main.h"
+#include "portconfig.h"
 
 #define JOYSTICK_DEADZONE 15 // deadzone per channel
 
