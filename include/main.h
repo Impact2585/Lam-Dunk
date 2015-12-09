@@ -45,6 +45,8 @@
 
 #include <API.h>
 
+#define signum(x) ((x > 0) - (x < 0))
+
 // Allow usage of this file in C++ programs
 #ifdef __cplusplus
 extern "C" {
