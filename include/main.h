@@ -96,6 +96,27 @@ void initializeIO();
  * can be implemented in this task if desired.
  */
 
+void drive();
+//drive
+
+
+void driveSet(int Y, int X);
+void driveSetLeft(int speed);
+void driveSetRight(int speed);
+//the three methods above set drive motor speeds
+
+
+
+void tankDrive();
+//getting values for tankdrive
+
+void tankDriveSet();
+//setting motor values for tankdrive
+
+int signOf();
+//returns sign of number ex: -1 or 1
+
+
 void intake();
 //intake
 
