@@ -49,7 +49,15 @@
 
 #define DRIVETIME 1500
 
+#define INTAKE_MOTOR 1
+#define RIGHT_FRONT_DRIVETRAIN_MOTOR 2
+#define RIGHT_BACK_DRIVETRAIN_MOTOR 3
 
+
+
+#define LEFT_FRONT_DRIVETRAIN_MOTOR 8
+#define LEFT_BACK_DRIVETRAIN_MOTOR 9
+#define LIFT_MOTOR 10
 
 // Allow usage of this file in C++ programs
 #ifdef __cplusplus

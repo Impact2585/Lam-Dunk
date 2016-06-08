@@ -63,11 +63,11 @@ void driveSet(int y, int x) {
 }
 
 void driveSetLeft(int speed) {
-  motorSet(8, -speed);
-  motorSet(9, speed);
+  motorSet(LEFT_FRONT_DRIVETRAIN_MOTOR, -speed);
+  motorSet(LEFT_BACK_DRIVETRAIN_MOTOR, speed);
 }
 
 void driveSetRight(int speed) {
-  motorSet(2, -speed);
-  motorSet(3, speed);
+  motorSet(RIGHT_FRONT_DRIVETRAIN_MOTOR, -speed);
+  motorSet(RIGHT_BACK_DRIVETRAIN_MOTOR, speed);
 }
